@@ -51,6 +51,7 @@ public class Main_B_4485_녹색옷을입은애가젤다지_이재민 {
 			Loc l = q.poll();
 			
 			if(d[l.x][l.y] < l.w) continue;
+			
 			for(int i=0; i<4; i++) {
 				int nx = l.x + dx[i];
 				int ny = l.y + dy[i];
